@@ -74,10 +74,10 @@
         alert(`$ {valor1} \ n $ {valor2} \ n $ {valor3} \ nO maior valor é o: \ n $ {valor1}`)
         } 
         else if(valor2> valor1 && valor2> valor3) {
-        alert(`$ {valor1} \ n $ {valor2} \ n $ {valor3} \ nO maior valor é o: \ n $ {valor2}`)
+        alert(`$ {valor1} \n $ {valor2} \n $ {valor3} \n O maior valor é o: \ n $ {valor2}`)
         }
         else if(valor3> valor1 && valor3> valor2)
-        alert(`$ {valor1} \ n $ {valor2} \ n $ {valor3} \ nO maior valor é o: \ n $ {valor3}`)
+        alert(`${valor1} \n ${valor2} \n ${valor3} \n O maior valor é o: \ n ${valor3}`)
 
         Exercício 9-
         let a = Number(prompt("Digite o primeiro valor"))
