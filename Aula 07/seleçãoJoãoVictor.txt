@@ -53,16 +53,11 @@
         if(numero> 20) {
         if(numero <90) {
         alert(`O número está na faixa entre 20 e 90`)
-        }
-        else
-        {
+        }else
         alert(`O número está fora da faixa`)
-        }    
-        {
-        else
-        }       
-        alert("O número está fora da faixa")
+        }else alert("O número está fora da faixa")
         }
+
 
         Exercício 7-
         Boolean(A> 10 && B <= 20) // false
