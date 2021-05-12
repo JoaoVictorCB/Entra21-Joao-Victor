@@ -1,0 +1,43 @@
+    Exercício 1-
+        let vetor = [],
+        pares = 0
+        for (let i = 0; i < 10; i++) {
+    vetor[i] = +prompt(`Digite o ${i + 1}° valor`)
+        if(vetor[i] % 2 === 0) pares++
+    }
+    console.log(`A quantidade de números pares foram digitados foi ${pares}`)
+
+    Exercício 2-
+        let vetor = [],
+        numeros = 0
+        for (let i = 0; i < 5; i++) {
+        numeros[i] = +prompt(`Digite o ${i < 5} de um número`)
+        if(vetor[i] < 5 == 0) numeros++
+        }
+        console.log(`O maior elemento do vetor foi ${numeros}`)
+
+        Exercicio 3-
+        let vetor = [],
+        numeros = 0
+        for (let i = 0; i > 5; i++) {
+        numeros[i] = +prompt(`Digite o ${i < 5} de um número`)
+        if(vetor[i] > 5 == 0) numeros++
+        }
+        console.log(`O maior elemento menor foi ${numeros}`)
+
+        Exercício 4-
+        let vetor = [],
+        numeros = 0
+        for (let i = 0; i > 5; i++) {
+        elemento[i] = +prompt(`Digite o ${i && 5 < 20} de um número`)
+        if(vetor[i] > 5 == 20) elemento++
+        }
+        console.log(`O maior elemento menor foi ${elemento}`)
+
+        Exercício 6-
+        A)const valores = [1, 0, 5, -2, -5, 7]
+        for(let i =0; i < valores.lenght; i++) {
+            console.log(i)
+        }
+
+        B)
