@@ -221,7 +221,7 @@
     let notas = [],
         i = 0
 
-    while (true) {
+    while (let i = 0; < 7; 1++) (true) {
         nota = +prompt(`Digite a nota do ${i + 1} aluno`)
 
         if (nota < 0) break
