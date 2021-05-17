@@ -29,7 +29,6 @@
 
     console.log(`Vetor: ${vetor}\nMaior valor: ${maior}\nPosição no vetor: ${posicao}`)
 
-
     Exercício 3-
     let vetor = [],
         maior,
@@ -294,7 +293,7 @@
     }            
 
     for (let i = numero1; i <= numero2; i += 2) {
-        console.log(i)
+        console.log(i) 
     }
         
     Exercício 17-
@@ -323,7 +322,7 @@
 
         if (!trocou) break
     }
-
+    
     console.log(`Vetor ordenado: ${vetor}`)
 
     Exercício 18-
