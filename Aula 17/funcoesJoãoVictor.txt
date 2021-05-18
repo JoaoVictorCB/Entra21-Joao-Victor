@@ -1,0 +1,38 @@
+        Exercício 1-
+                function ehPositivo(numero) {
+                        return numero > 0
+            }
+                let numero = +prompt("Digite um número")
+                console.log(ehPositivo(numero))
+        
+        Exercício 2-
+                function valorA(numero1, numero2) {
+                        return true
+        }
+                let numero = +prompt("Digite um número")
+                console.log(valorA(numero))
+
+        Exercício 3-
+                function potencia(numero1, numero2){
+        if(numero1 > numero2){
+                return true
+            }
+        }
+                let numero1 = +prompt("Digite um número")
+                let numero2 = +prompt("Digite o 2° número")
+                        console.log(potencia(numero1))
+                        console.log(potencia(numero2))
+        
+        Exercício 4-
+        function notasAlunos(numero1, numero2, numero3){
+                return true
+        }
+            let numero1 = +prompt("Digite a 1° nota")
+            let numero2 = +prompt("Digite a 2° nota")
+            let numero3 = +prompt("Digite a 3° nota")
+                media = numero1 + numero2 + numero3 / 3
+                        console.log(notasAlunos(numero1))
+                        console.log(notasAlunos(numero2))
+                        console.log(notasAlunos(numero3))
+        
+        Exercício 5-
