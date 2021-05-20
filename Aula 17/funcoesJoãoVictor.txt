@@ -5,6 +5,7 @@
                 let numero = +prompt("Digite um número")
                 console.log(ehPositivo(numero))
         
+
         Exercício 2-
         let numero1 = +prompt("Digite um número")
         let numero2 = +prompt("Digite outro número")
@@ -29,6 +30,7 @@
         }
         console.log(`Resultado ${numero1 ** numero2}`)
         
+
         Exercício 4-
         let notaa = +prompt("Digite uma nota")
         let notab = +prompt("Digite outra nota")
@@ -42,6 +44,7 @@
         let media = mediaNotas(notaa, notab, notac)
         console.log(`Resultado ${media.toFixed(2)}`)
         
+
         Exercício 5-
         function obtemConceito(media) {
         let conceito
@@ -56,6 +59,7 @@
         }
         return conceito 
         }      
+
 
         Exercício 6-
         function calculaPesoIdeal(altura, sexo) {
@@ -84,6 +88,7 @@
                 console.log("Erro: " + e)
             }
 
+
         Exercício 7-
         function maiorMenor(numeros) {
         let menor = numeros[0], maior = numeros[0]
@@ -109,6 +114,7 @@
         console.log(numeros)
         console.log(`Maior: ${maior}\nMenor: ${menor}`)
 
+
         Exercício 8-
         let calculaDias = (anos, meses, dias) => anos * 365 + meses * 30 + dias
             
@@ -117,6 +123,7 @@
         dias = +prompt("Digite a quantidade de dias")                        
 
         console.log(calculaDias(anos, meses, dias))
+
 
         Exercício 9-
                 function quantidadeDivisores(numero) {
@@ -129,6 +136,7 @@
         let numero = +prompt("Digite um número")
 
         console.log(quantidadeDivisores(numero))
+
 
         Exercício 10-
         let valor+prompt("Insira um valor para o qual deseja calcular seu fatorial: "){
