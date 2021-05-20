@@ -6,33 +6,157 @@
                 console.log(ehPositivo(numero))
         
         Exercício 2-
-                function valorA(numero1, numero2) {
-                        return true
+        let numero1 = +prompt("Digite um número")
+        let numero2 = +prompt("Digite outro número")
+
+        function valores(numero1, numero2) {
+        if (numero1 > numero2) {
+                        return numero2
+                } return numero1
         }
-                let numero = +prompt("Digite um número")
-                console.log(valorA(numero))
+        
+        let menorNumero = valores(numero1, numero2)
+        console.log(`Resultado ${menorNumero}`)
 
         Exercício 3-
-                function potencia(numero1, numero2){
-        if(numero1 > numero2){
-                return true
-            }
+        let numero1 = +prompt("Digite um número")
+        let numero2 = +prompt("Digite outro número")
+
+        function valoresPotencias(numero1, numero2) {
+        if (numero1 ** numero2) {
+                        return 
+                }
         }
-                let numero1 = +prompt("Digite um número")
-                let numero2 = +prompt("Digite o 2° número")
-                        console.log(potencia(numero1))
-                        console.log(potencia(numero2))
+        console.log(`Resultado ${numero1 ** numero2}`)
         
         Exercício 4-
-        function notasAlunos(numero1, numero2, numero3){
-                return true
+        let notaa = +prompt("Digite uma nota")
+        let notab = +prompt("Digite outra nota")
+        let notac = +prompt("Digite outra nota")
+
+        function mediaNotas(notaa, notab, notac){
+
+                let media = (notaa + notab + notac) / 3
+                return media
         }
-            let numero1 = +prompt("Digite a 1° nota")
-            let numero2 = +prompt("Digite a 2° nota")
-            let numero3 = +prompt("Digite a 3° nota")
-                media = numero1 + numero2 + numero3 / 3
-                        console.log(notasAlunos(numero1))
-                        console.log(notasAlunos(numero2))
-                        console.log(notasAlunos(numero3))
+        let media = mediaNotas(notaa, notab, notac)
+        console.log(`Resultado ${media.toFixed(2)}`)
         
         Exercício 5-
+        function obtemConceito(media) {
+        let conceito
+        if (media < 5) {
+                    conceito = "D"
+        } else if (media < 7) {
+                    conceito = "C"
+        } else if (media < 9) {
+                conceito = "B"
+        } else {
+                conceito = "A"
+        }
+        return conceito 
+        }      
+
+        Exercício 6-
+        function calculaPesoIdeal(altura, sexo) {
+                let pesoIdeal
+
+                switch(sexo) {
+                    case "M":
+                        pesoIdeal = 62.1 * altura - 44.7
+                        break
+                    case "F":
+                        pesoIdeal = 72.7 * altura - 58
+                        break
+                    default:
+                        throw TypeError("Valor de sexo é inválido!")
+                }
+
+                return pesoIdeal
+            }
+
+            let altura = +prompt("Digite a altura")
+            let sexo = prompt("Digite seu sexo").toUpperCase()
+
+            try {
+                console.log(calculaPesoIdeal(altura, peso))
+            } catch(e) {
+                console.log("Erro: " + e)
+            }
+
+        Exercício 7-
+        function maiorMenor(numeros) {
+        let menor = numeros[0], maior = numeros[0]
+        for (let numero of numeros) {
+                if (numero > maior) maior = numero
+                if (numero < menor) menor = numero
+        }
+        return [maior, menor]
+        }            
+
+        function cadastraNumeros() {
+        let numeros = []
+        for (let i = 0; i < 50; i++) {
+                numeros[i] = Math.floor(Math.random() * 1000) + 1
+        }
+
+        return numeros
+        }
+
+        let numeros = cadastraNumeros()
+        let [maior, menor] = maiorMenor(numeros)
+
+        console.log(numeros)
+        console.log(`Maior: ${maior}\nMenor: ${menor}`)
+
+        Exercício 8-
+        let calculaDias = (anos, meses, dias) => anos * 365 + meses * 30 + dias
+            
+        let anos = +prompt("Digite quantidade de anos"),
+        meses = +prompt("Digite a quantidade de meses"),
+        dias = +prompt("Digite a quantidade de dias")                        
+
+        console.log(calculaDias(anos, meses, dias))
+
+        Exercício 9-
+        let primo +prompt("digite um numero"){
+        let i=0;
+        let p=1;
+
+        for(i=2;i<numero;i++){
+        if(numero%i==0){
+        p=0;
+        }
+        }
+        return p;
+        }
+
+        let main()
+        let numero,resultado;
+        console.log("Digite um numero:");
+        let("%d",&numero);
+
+        resultado=primo(numero);
+
+
+        if(resultado == 1){
+                console.log("Numero primo.\n");
+        }
+        else{
+                console.log("Numero nao e primo.\n");
+        }
+
+        primo();
+        return 0;
+
+        Exercício 10-
+        let valor+prompt("Insira um valor para o qual deseja calcular seu fatorial: "){
+        {
+        let fatoral = n
+        let("%d", &n);
+        
+        for(fatoral = 1; n > 1; n = n - 1)
+        fat = fatoral * n;
+        
+        console.log(´("\nFatorial calculado: %d"), ${fatoral}`);
+        return 0;
