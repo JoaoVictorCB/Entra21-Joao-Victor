@@ -119,35 +119,16 @@
         console.log(calculaDias(anos, meses, dias))
 
         Exercício 9-
-        let primo +prompt("digite um numero"){
-        let i=0;
-        let p=1;
-
-        for(i=2;i<numero;i++){
-        if(numero%i==0){
-        p=0;
+                function quantidadeDivisores(numero) {
+        let quantidade = 0
+        for (let i = 1; i <= numero; i++) {
+        if (numero % i === 0) quantidade++
         }
+        return quantidade
         }
-        return p;
-        }
+        let numero = +prompt("Digite um número")
 
-        let main()
-        let numero,resultado;
-        console.log("Digite um numero:");
-        let("%d",&numero);
-
-        resultado=primo(numero);
-
-
-        if(resultado == 1){
-                console.log("Numero primo.\n");
-        }
-        else{
-                console.log("Numero nao e primo.\n");
-        }
-
-        primo();
-        return 0;
+        console.log(quantidadeDivisores(numero))
 
         Exercício 10-
         let valor+prompt("Insira um valor para o qual deseja calcular seu fatorial: "){
