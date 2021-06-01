@@ -1,0 +1,33 @@
+    Exercício 2-
+    index.html:
+        <h1>Algumas marcas</h1><br>
+        <p><em>Este parágrafo está em Itálico.</em></p><br>
+        <p><ins>Este parágrafo está sublinhado...</ins></p><br>
+        <p>Utilizando a marca BIG <small>e a marca small</small></p><br>
+        <p>Caracteres especiais: &copy;copyright ...</p>
+
+    Exercício 3-
+    index.html:
+        <h1><strong>FONTES:</strong></h1>
+        <p class="green-text"><small>"No mundo dos negócios todos são pagos com duas moedas: Dinheiro e Experiência... Agarre a experiência primeiro, o dinheiro virá depois." --Harold Geenen</small></p>
+        <p class="red-text">"Há homens que lutam um dia e são bons.<br>
+        Há outros que lutam muitos dias e são melhores.</p>
+        <p class="blue-text">Mas há os que lutam todos os dias e estes são imprescindíveis."<br><br>
+        --Bertolt Brecht
+        </p>
+
+    index.css:
+        .green-text {
+        color: lime;
+        }
+
+        .red-text {
+            color: red;
+        }
+
+        .blue-text {
+            color: blue;
+        }
+
+        Exercício 4-
+        index.html:
