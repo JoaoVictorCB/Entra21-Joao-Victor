@@ -66,3 +66,7 @@ Html:
 https://www.w3schools.com/
 
 https://developer.mozilla.org/pt-BR/docs/Web/HTML
+
+Compatibilidade:
+
+https://caniuse.com/
