@@ -70,3 +70,17 @@ https://developer.mozilla.org/pt-BR/docs/Web/HTML
 Compatibilidade:
 
 https://caniuse.com/
+
+ui gradient:
+
+https://uigradients.com/#SweetMorning
+
+Emmet Documents: Syntax Abreviation:
+
+https://docs.emmet.io/abbreviations/syntax/
+
+Metodologia css:
+
+http://getbem.com/introduction/
+
+https://medium.com/trainingcenter/bem-em-5min-f5c80fd23439

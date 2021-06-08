@@ -1,3 +1,31 @@
-body {
-    background-color: purple;
+body{
+    background: #C06C84;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #6C5B7B, #6C5B7B, #C06C84);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #6C5B7B, #C06C84, #C06C84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.logo {
+    max-width: 50px;
+    height: auto;
+}
+
+.alt {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 12px;
+}
+
+.p1 {
+    color: lightgray;
+    text-decoration: transparent;
+}
+
+.button {
+    text-align: center;
+}
+
+.nav {
+    background-color: white;   
 }
