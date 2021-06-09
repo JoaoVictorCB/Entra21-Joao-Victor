@@ -1,31 +1,116 @@
 body{
-    background: #C06C84;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #6C5B7B, #6C5B7B, #C06C84);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #6C5B7B, #C06C84, #C06C84); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-color: #935d8c;
+    color: rgba(255, 255, 255, 0.65);
+    background-image:linear-gradient(45deg #e37682 15%, #5f4d93 85%);
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-weight: 300;
+    line-height: 1.65;
+    display: block;
+    background: -webkit-linear-gradient(to bottom, #625296, #DD7986, #DD7986);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #625296, #5f4d93, #DD7986); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
+}
+
+.head{
+    background-color: #625296;
+    display: block;
+    margin: 0 auto;
+    max-width: 75%;
+    padding: 80px 42px 38px;
+    text-align: center;
 }
 
 .logo {
-    max-width: 50px;
-    height: auto;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    max-width: 200px; 
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
 }
 
-.alt {
-    color: white;
+.title1 {
+    color: #ffffff;
+    font-size: 3.25em;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0px 0px 12px;
 }
 
 .p1 {
-    color: lightgray;
-    text-decoration: transparent;
-}
-
-.button {
     text-align: center;
+    color: #FFFFFFA6;
+    font-size: 1.25em;
+    opacity: 1;
+    letter-spacing: -0.025em;
+    margin: 0 0 2em 0;
+    font-family: inherit;
+    vertical-align: baseline;
 }
 
-.nav {
-    background-color: white;   
+.buttons {
+    background-color: white;
+    border: 2px solid;
+    border-radius: 2px;
+    color: white;
+    border: white;
+    background-size: cover;
+    background-position: center;
+    height: 20px;
+    padding: 1em;
+}
+
+.button1 {
+    background-color: #FFFFFF;
+    height: 5px;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button2{
+    list-style: none;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 24px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button3 {
+    list-style: none;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 24px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.button4 {
+    list-style: none;
+    background-color: #FFFFFF;
+    border: none;
+    padding: 10px 24px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.img {
+    display: block;
+    border: 2px solid;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 5%;
 }
