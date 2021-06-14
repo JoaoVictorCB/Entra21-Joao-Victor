@@ -43,6 +43,7 @@ main {
     border-radius: 3px;
     background-color: white;
     margin-left: calc(50% - 800px);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 main nav {
@@ -223,6 +224,7 @@ main .main-sec2 h2::after, main .main-sec3 h2::after, main .main-sec4 h2::after 
 
 footer {
     color: #FFFFFFA6;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 footer h2 {

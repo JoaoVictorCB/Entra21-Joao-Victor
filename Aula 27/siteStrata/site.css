@@ -1,0 +1,32 @@
+body {
+    padding-top: 10px;
+    background-color: white;
+}
+
+main {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main section {
+    padding: px 90px 80px;
+    margin-top: 50px;
+}
+
+.artic-title {
+    color: #787878;
+    margin: 35px 3px;
+    font-size: 1.5em;
+    font-weight: 500;
+    display: block;
+    margin: 0 auto;
+    padding: 117px 42px 38px;
+    display: block;
+    margin: 0 auto;
+    padding: 117px 42px 38px;
+    text-align: center; 
+}
+
+.artic-p {
+    color: #A2A2A2;
+    text-align: center;
+}
