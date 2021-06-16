@@ -1,0 +1,46 @@
+body {
+    background-color: rgba(95, 204, 199, 0.74);
+}
+
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+  header h1 {
+    color: white;
+    border-radius: 50px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1900px;
+    background-color: #42cdf0;
+} 
+
+header nav {
+    border-radius: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1900px;
+    background-color: #42cdf0;
+}
+
+header nav div ul li {
+    display: inline;
+    padding: 50px 50px;
+}
+
+header nav div ul li a {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    line-height: 3.25em;
+    padding: 32px;  
+    color: rgb(0, 0, 0);
+}
+
+.li-icon div i {
+    color:  gray;
+}

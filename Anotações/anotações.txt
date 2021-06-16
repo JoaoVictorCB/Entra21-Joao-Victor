@@ -89,14 +89,4 @@ Tamanho de fonte (CSS): rem;
 
 Posicionamento (CSS): em;
 
-<img src="avatar.jpg" alt="">
-
-        <section class="main-sec1">
-            <div>
-                <h1 class="h1-title">I am Strata, a super simple
-                    <br>
-                    responsive site template freebie
-                    <br>
-                    crafted by HTML5 UP.</h1>
-            </div>
-        </section>
+site: wix
