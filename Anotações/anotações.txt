@@ -90,3 +90,7 @@ Tamanho de fonte (CSS): rem;
 Posicionamento (CSS): em;
 
 site: wix
+
+slideshow: https://www.w3schools.com/howto/howto_js_slideshow.asp
+
+lightbox: https://www.w3schools.com/howto/howto_js_lightbox.asp

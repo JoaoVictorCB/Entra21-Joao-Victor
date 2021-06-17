@@ -1,11 +1,8 @@
 body {
-    background-image: url(vegas.jpg);
-    background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-image: url(universal.jpg);
 }
 
 header {
-    background-image: url(island.jpg);
     font-family: 'Source Sans Pro', sans-serif;
     background-repeat: no-repeat;
     height: 25%;
@@ -25,7 +22,6 @@ header h1 {
     padding: 100px 50px;
     margin: 0 auto;
     text-align: center;
-
 }
 
 main nav {

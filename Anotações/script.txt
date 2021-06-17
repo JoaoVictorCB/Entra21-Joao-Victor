@@ -1,7 +1,44 @@
-    <h1><strong>FONTES:</strong></h1>
-    <p><small>"No mundo dos negócios todos são pagos com duas moedas: Dinheiro e Experiência... Agarre a experiência primeiro, o dinheiro virá depois." --Harold Geenen</small></p>
-    <p>Há homens que lutam um dia e são bons.<br>
-        Há outros que lutam muitos dias e são melhores.</p>
-    <p>Mas há os que lutam todos os dias e estes são imprescindíveis.<br>
-        --Bertolt Brecht
-    </p>
+body {
+    background-image: url(universal.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+header {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+  header h1 {
+    color: white;
+    border-radius: 50px;
+    position: sticky;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1900px;
+    background-color: #42cdf0;
+} 
+
+header nav {
+    border-radius: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 1900px;
+    background-color: rgb(79, 10, 77);
+}
+
+header nav div ul li {
+    display: inline;
+    padding: 50px 50px;
+}
+
+header nav div ul li a {
+    border-radius: 10px;
+    background-color: rgb(79, 10, 77);
+    line-height: 3.25em;
+    padding: 32px;  
+    color: white;
+}
