@@ -1,5 +1,5 @@
 body {
-    background-image: url(roma.jpg);
+    background-image: url(wall.jpg);
     background-attachment: fixed;
     font-family: 'Source Sans Pro', sans-serif;
     background-repeat: no-repeat;
@@ -132,78 +132,113 @@ main nav div ul li a {
 main {
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.726);
-    margin-right: calc(50% - 960px);
-    margin-left: calc(50% - 960px);
+    margin-right: calc(50% - 951px);
+    margin-left: calc(50% - 952px);
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-.title{
-    color: rgb(255, 255, 255);
+.title {
+    color: white;
     text-align: center;
+    font-size: 1.5rem;
+    padding: 80px;
 }
 
-.container {
+.p-2 {
     color: white;
-    display: flex;
-    flex-direction: column;
-    text-align: justify;
+    text-align: center;
+    font-size: 1.5rem;
     padding: 40px;
 }
 
-.img {
-    width: 1000px;
-    height: auto;
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
 }
 
 .text {
-    margin-top: 0%;
-    margin-bottom: 50px;
+  color: #f2f2f2;
+  font-size: 1.5rem;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
 }
 
-.img2 {
-    width: 1000px;
-    height: auto;
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
 }
 
-.dropbtn {
-    background-color: rgba(0, 0, 0, 0.726);
-    color: white;
-    padding: 16px;
-    font-size: 16px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.726);
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(255, 255, 255, 0.2);
-    z-index: 1;
-  }
-  
-  .dropdown-content a {
-    color: rgb(255, 255, 255);
-    padding: 20px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {background-color: #f1f1f1}
-  
-  .dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
-  .dropdown:hover .dropbtn {
-    background-color: rgb(0, 0, 0);
-  }
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
 
 footer {
     background-color: rgba(0, 0, 0, 0.726);
@@ -221,7 +256,7 @@ footer {
     margin: -1%;
 }
 
-footer div.container {
+footer div {
     color: white;
     text-align: center;
     border-radius: 50%;
