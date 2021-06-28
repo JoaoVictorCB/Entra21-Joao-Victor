@@ -2,22 +2,37 @@
 <html lang="en">
 
 <head>
-    <style>
-
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <title>Document</title>
 </head>
 
 <body>
+    <div>
+        _   _
+        (q\_/p)
+         /. .\
+        =\_t_/=   __
+         /   \   (
+        ((   ))   )
+        /\) (/\  /
+        \  Y  /-'
+         nn^nn 
+    </div>
     <script>
-        <ul>
-            <li>Primeiro Item</li>
-            <li>Segundo Item</li>
-            <li>Terceiro Item</li>
-            <li>Quarto Item</li>
-            <li>Quinto Item</li>
-        </ul>
+        let ul = document.querySelector("ul")
+        ul.addEventListener("click", (event) => {
+            let target = event.target.closest("li")
+            console.log(event)
 
-        /*  https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs/Manipulating_documents */
+            if (!event.ctrlKey) {
+                for (child of ul.children) {
+                    child.style.backgroundColor
+                }
+            }
+            target.style.backgroundColor
+        })
     </script>
 </body>
 
