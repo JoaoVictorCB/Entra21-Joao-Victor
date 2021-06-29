@@ -1,4 +1,4 @@
-Exercicios Tamanho Elemento
+Exercicios Tamanho Elemento:
 
     let alturaCampo = document.querySelector(".campo").clientHeight
     let larguraCampo = document.querySelector(".campo").clientWidth
@@ -10,7 +10,7 @@ Exercicios Tamanho Elemento
     document.querySelector(".bola").style.left = (larguraCampo / 2) - larguraBola /2 + "px"
 
 
-Exercicios Coordenadas
+Exercicios Coordenadas:
 
     Exercício 1
 
@@ -44,7 +44,7 @@ Exercicios Coordenadas
     mostraLegenda(document.querySelector("#div-legenda"), "direita", "Olá!!")
 
 
-Exercícios Eventos Navegador
+Exercícios Eventos Navegador:
 
     Exercício 1
 
@@ -70,7 +70,7 @@ Exercícios Eventos Navegador
 }
 
 
-Exercícios Event Delegation
+Exercícios Event Delegation:
 
     Exercício 1
 
